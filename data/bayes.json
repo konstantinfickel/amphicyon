@@ -1,0 +1,188 @@
+{
+  "amounts": {
+    "honeypot": 20,
+    "harmless": 80
+  },
+  "classifiers": {
+    "uppercaseName": {
+      "honeypot": {
+        "ifFound": 60,
+        "ifNotFound": 40
+      },
+      "harmless": {
+        "ifFound": 30,
+        "ifNotFound": 70
+      }
+    },
+    "oneEtherBalance": {
+      "honeypot": {
+        "ifFound": 10,
+        "ifNotFound": 90
+      },
+      "harmless": {
+        "ifFound": 1,
+        "ifNotFound": 99
+      }
+    },
+    "comparingValueAndBalance": {
+      "honeypot": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      },
+      "harmless": {
+        "ifFound": 0,
+        "ifNotFound": 100
+      }
+    },
+    "uncalledExternalCall": {
+      "honeypot": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      },
+      "harmless": {
+        "ifFound": 0,
+        "ifNotFound": 100
+      }
+    },
+    "modifiableLibraryVariable": {
+      "honeypot": {
+        "ifFound": 20,
+        "ifNotFound": 80
+      },
+      "harmless": {
+        "ifFound": 10,
+        "ifNotFound": 90
+      }
+    },
+    "codeHiddenBySpaces": {
+      "honeypot": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      },
+      "harmless": {
+        "ifFound": 0,
+        "ifNotFound": 100
+      }
+    },
+    "similarVariableNames": {
+      "honeypot": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      },
+      "harmless": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      }
+    },
+    "shadowedParentVariable": {
+      "honeypot": {
+        "ifFound": 20,
+        "ifNotFound": 80
+      },
+      "harmless": {
+        "ifFound": 10,
+        "ifNotFound": 90
+      }
+    },
+    "understandableLength": {
+      "honeypot": {
+        "ifFound": 100,
+        "ifNotFound": 0
+      },
+      "harmless": {
+        "ifFound": 50,
+        "ifNotFound": 50
+      }
+    },
+    "honeypotLatched": {
+      "honeypot": {
+        "ifFound": 50,
+        "ifNotFound": 50
+      },
+      "harmless": {
+        "ifFound": 50,
+        "ifNotFound": 50
+      }
+    },
+    "hashedVariableCanBeSetUnhashed": {
+      "honeypot": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      },
+      "harmless": {
+        "ifFound": 0,
+        "ifNotFound": 100
+      }
+    },
+    "emptyStringCompilerBug": {
+      "honeypot": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      },
+      "harmless": {
+        "ifFound": 0,
+        "ifNotFound": 100
+      }
+    },
+    "storageNullPointer": {
+      "honeypot": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      },
+      "harmless": {
+        "ifFound": 0,
+        "ifNotFound": 100
+      }
+    },
+    "preventableTransfers": {
+      "honeypot": {
+        "ifFound": 30,
+        "ifNotFound": 70
+      },
+      "harmless": {
+        "ifFound": 20,
+        "ifNotFound": 80
+      }
+    },
+    "canSendEther": {
+      "honeypot": {
+        "ifFound": 100,
+        "ifNotFound": 0
+      },
+      "harmless": {
+        "ifFound": 50,
+        "ifNotFound": 50
+      }
+    },
+    "silentlyFailingFunction": {
+      "honeypot": {
+        "ifFound": 75,
+        "ifNotFound": 25
+      },
+      "harmless": {
+        "ifFound": 10,
+        "ifNotFound": 90
+      }
+    },
+    "initializationPhase": {
+      "honeypot": {
+        "ifFound": 30,
+        "ifNotFound": 70
+      },
+      "harmless": {
+        "ifFound": 5,
+        "ifNotFound": 95
+      }
+    },
+    "containsTokenInterface": {
+      "honeypot": {
+        "ifFound": 10,
+        "ifNotFound": 90
+      },
+      "harmless": {
+        "ifFound": 50,
+        "ifNotFound": 50
+      }
+    }
+  }
+}
